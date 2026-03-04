@@ -112,9 +112,8 @@ def ajusta(A_sub, L_sub, sigma_sub):
 
     return x, v, sigma_v, w
 
-print("="*70)
 print("IDS (Data Snooping Iterativo)  |  crítico = 3.29")
-print("="*70)
+
 
 while True:
     A_sub = A[ativos,:]
@@ -144,9 +143,8 @@ while True:
     it += 1
 
 # Impressão final
-print("\n" + "="*70)
 print("RELATÓRIO FINAL")
-print("="*70)
+print("-"*70)
 
 if len(removidos) == 0:
     print("\nNenhuma observação removida.")
